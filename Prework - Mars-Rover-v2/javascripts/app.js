@@ -75,7 +75,7 @@ switch(a){
   console.log("Intruduce una inicial de estas direcciones para moverte --> N,W,S,E");
 }
   console.log("estas frente a: " + direction);
-  console.log("turnLeft was called!");
+  console.log("Giraste a la izquierda!");
   return 0;
 }
 console.log("direccion:" + direction);
@@ -101,7 +101,7 @@ function turnRight(direccion){
       console.log("Intruduce dirección para moverte --> N,W,S,E");
     }
   console.log("estas frente a: " + direction);  
-  console.log("turnRight was called!");
+  console.log("Giraste a la derecha!");
   return 0;
 }
 
@@ -127,7 +127,7 @@ function moveForward(direction){
       default:
       console.log("introduce dirección para moverte --> N,W,S,E");
     }
-  console.log("moveForward was called");
+  console.log("has avanzado hacia adelante!");
 }
 
 function pulseKey(a){
