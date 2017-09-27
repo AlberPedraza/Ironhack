@@ -20,9 +20,7 @@ function RellenarMatriz(){
   for (i = 0; i <= 9; i++){
     for (f = 0; f <= 9; f++){
        grid[i][f]="_";
-       //document.write(grid[i][f]);
-    }
-    //document.write("<br />");
+   }
   }
 };
 RellenarMatriz();
@@ -131,7 +129,7 @@ function moveForward(direction){
 }
 
 function pulseKey(a){
-  //formatea las posiciones no ocupadas por el rover a "o"
+  //señala posiciones ocupadas por el rover a "o"
   grid [y][x]="o";
 switch(a){
     case "f":
