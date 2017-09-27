@@ -20,9 +20,9 @@ function RellenarMatriz(){
   for (i = 0; i <= 9; i++){
     for (f = 0; f <= 9; f++){
        grid[i][f]="_";
-       document.write(grid[i][f]);
+       //document.write(grid[i][f]);
     }
-    document.write("<br />");
+    //document.write("<br />");
   }
 };
 RellenarMatriz();
